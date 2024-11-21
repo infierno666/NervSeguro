@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seguro de Mascota - Nerv Seguros</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-main">
+  <header>
+    <div class="justify-content-center align-items-center">
+      <img class="img-header" src="imgs/bg-of1.jpg" alt="logo-header" />
+    </div>
+  </header>
+
+  <nav style="position: sticky" class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="imgs/logoNerv.png" alt="Logo Nerv">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><button type="button"
+              class="btn btn-outline-light">Seguros</button></a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Smedico.html">Médico</a></li>
+            <li><a class="dropdown-item" href="Sautomovilistico.html">Automovilístico</a></li>
+            <li><a class="dropdown-item" href="Smascotas.html">Mascotas</a></li>
+            <li><a class="dropdown-item" href="SInmobiliario.html">Inmobiliario</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="precios.html">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">Acerca de</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Carrusel -->
+    <div class="container my-5">
+      <div id="carouselExampleDark" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="imgs/med-4.jpg" class="d-block w-100"
+              alt="Cobertura Médica Completa - Imagen de personas saludables">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cobertura Médica Integral</h5>
+              <p>Protege tu salud con nuestros planes de seguro médico completos y personalizados.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="imgs/med-3.jpg" class="d-block w-100"
+              alt="Servicios de Salud - Imagen de un profesional de la salud en consulta">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seguros de Salud Confiables</h5>
+              <p>Asegura tu bienestar con nuestras opciones de cobertura médica total y confiable.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="imgs/medcar1.jpg" class="d-block w-100" alt="Atención en Emergencias - Imagen de una ambulancia">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cuidado Total para tu Salud</h5>
+              <p>Accede a una protección exhaustiva con nuestros planes de seguro médico adaptados a tus necesidades.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Características del seguro -->
+    <section class="container mt-5">
+      <section class="row text-center">
+        <section class="col-12 text-center">
+          <h2 id="titulos">¿Por qué elegir nuestro seguro médico?</h2>
+          <p>
+            La salud es invaluable, y nuestro seguro está diseñado para ofrecerte una protección total. Con cobertura
+            completa para consultas, tratamientos y emergencias, puedes confiar en recibir la mejor atención sin
+            preocupaciones.
+          </p>
+        </section>
+
+        <section class="cua2 col-sm-6 mt-2">
+          <section class="section-content rounded">
+            <h2>Consultas y Tratamientos</h2>
+            <p>
+              Accede a consultas con especialistas altamente calificados y tratamientos avanzados para mantener tu salud
+              en su mejor estado.
+            </p>
+          </section>
+        </section>
+
+        <section class="cua2 col-sm-6 mt-2">
+          <section class="section-content rounded">
+            <h2>Emergencias 24/7</h2>
+            <p>
+              Atención médica de emergencia disponible en todo momento, para que siempre tengas la ayuda necesaria
+              cuando más la necesites.
+            </p>
+          </section>
+        </section>
+
+        <section class="cua2 col-sm-6 mt-2">
+          <section class="section-content rounded">
+            <h2>Exámenes y Diagnósticos</h2>
+            <p>
+              Cobertura para exámenes médicos detallados y diagnósticos avanzados, asegurando que cualquier problema sea
+              detectado y tratado a tiempo.
+            </p>
+          </section>
+        </section>
+
+        <section class="cua2 col-sm-6 mt-2">
+          <section class="section-content rounded">
+            <h2>Hospitalización</h2>
+            <p>
+              Cobertura completa para gastos de hospitalización, para que te enfoques en tu recuperación sin preocuparte
+              por los costos.
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <!-- Detalles de cobertura -->
+    <section class="cua container border border-danger">
+      <section class="row">
+        <section class="col-sm-8">
+          <section class="cober">
+            <h2>Cobertura Integral</h2>
+            <p>
+              Con nuestro seguro médico, obtienes una cobertura integral que abarca todos los aspectos esenciales de tu
+              salud. Desde consultas generales hasta cuidados intensivos, te brindamos tranquilidad y seguridad para ti
+              y tus seres queridos.
+            </p>
+            <section class="section-cuadritos">
+              <section class="minicuadro m-3">
+                <h3>Consulta General</h3>
+                <p>Recibe atención médica general para mantener tu salud en óptimas condiciones.</p>
+              </section>
+              <section class="minicuadro m-3">
+                <h3>Especialistas</h3>
+                <p>Accede a especialistas en diversas áreas para una atención personalizada y experta.</p>
+              </section>
+            </section>
+            <section class="section-cuadritos">
+              <section class="minicuadro m-3">
+                <h3>Hospitalización</h3>
+                <p>Cubre todos los gastos de hospitalización y cuidados intensivos necesarios para tu recuperación.</p>
+              </section>
+              <section class="minicuadro m-3">
+                <h3>Medicamentos</h3>
+                <p>Incluye cobertura para medicamentos recetados, asegurando que recibas el tratamiento adecuado.</p>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+
+
+    <!-- Carta pequeña -->
+    <div class="container">
+      <div class="row justify-content-center m-2">
+        <div class="section-content card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="imgs/medcar-1.jpeg" class="img-fluid rounded-start" alt="Seguro Médico" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Tu Salud, Nuestra Prioridad</h5>
+                <p id="parr1" class="card-text">
+                  Con nuestro seguro médico, te aseguramos la mejor atención
+                  para que puedas concentrarte en tu bienestar. Estamos aquí
+                  para cuidarte.
+                </p>
+                <div class="btn-custom">
+                  <a class="btn  btn-lg" href="contacto.html" role="button">Contratar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="">
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </div>
+  <!-- End of .container -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
